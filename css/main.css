@@ -144,6 +144,10 @@
   font-weight: 700;
 }
 
+body {
+  height: 100vh;
+}
+
 .headshot {
   margin: 10px 0 0 0;
   border-radius: 50%;
@@ -155,4 +159,16 @@
 .word {
   margin: auto;
   color: black;
+}
+
+.top {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.head-text {
+  text-align: center;
+  position: relative;
+  top: 40vh;
 }
