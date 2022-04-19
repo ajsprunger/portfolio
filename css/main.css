@@ -151,3 +151,8 @@
   float: left;
   transform: scaleX(-1);
 }
+
+.word {
+  margin: auto;
+  color: black;
+}
