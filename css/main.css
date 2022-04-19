@@ -112,11 +112,16 @@
 
 .logo {
   display: flex;
+  align-items: center;
   position: absolute;
   top: -13px;
   right: 60px;
   font-size: 1.2rem;
   color: #0e2431;
+}
+
+.envelope {
+  margin-right: 10px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -135,10 +140,14 @@
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
-  display: none;
-}
-
 .nav-link {
   font-weight: 700;
+}
+
+.headshot {
+  margin: 10px 0 0 0;
+  border-radius: 50%;
+  max-width: 30%;
+  float: left;
+  transform: scaleX(-1);
 }
