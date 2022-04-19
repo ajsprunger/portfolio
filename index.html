@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Austin Sprunger</title>
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <script defer src="./js/services.js"></script>
   <script src="https://kit.fontawesome.com/719449f0b1.js" crossorigin="anonymous"></script>
 </head>
@@ -24,8 +27,8 @@
           <h1>ajsprunger@gmail.com</h1>
         </div>
         <div class="menu-items">
-          <li><a class="nav-link" href="{{url_for('core.index')}}">Cookouts</a></li>
-          <li><a class="nav-link" href="{{url_for('users.user_cookouts', username=current_user.username)}}">My Profile</a></li>
+          <li><a class="nav-link" href="#top">Home</a></li>
+          <li><a class="nav-link" href=".projects">Projects</a></li>
           <li><a class="nav-link" href="{{url_for('cookouts.create_cookout')}}">Create Cookout</a></li>
         </div>
       </div>
@@ -34,9 +37,12 @@
   <div id="top">
     <img src="./assets/PXL_20220306_052328474.PORTRAIT.jpg" alt="" class="headshot">
     <div class="head-text">
-      <h1>Austin Sprunger</h1>
+      <h1 class="title">Austin Sprunger</h1>
       <div class="word"></div>
     </div>
+  </div>
+  <div class="projects">
+    <h1 class="title">Projects</h1>
   </div>
 </body>
 </html>
