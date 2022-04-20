@@ -152,7 +152,7 @@ nav {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 400vh;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
 }
@@ -192,6 +192,7 @@ body {
   position: absolute;
   top: 100vh;
   text-align: center;
+  display: inline-block;
 }
 
 .project {
@@ -199,5 +200,9 @@ body {
 }
 
 .project-card {
-  float: left;
+  display: flex;
+}
+
+.project-text-box {
+  margin: 15px;
 }
