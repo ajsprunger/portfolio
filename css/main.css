@@ -152,7 +152,8 @@ nav {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -176,8 +177,8 @@ body {
 }
 
 .top {
-  height: 100%;
-  display: flex;
+  min-height: 100vh;
+  display: inline;
   align-items: center;
 }
 
@@ -188,7 +189,15 @@ body {
 }
 
 .projects {
-  position: relative;
+  position: absolute;
   top: 100vh;
   text-align: center;
+}
+
+.project {
+  width: 500px;
+}
+
+.project-card {
+  float: left;
 }
