@@ -223,3 +223,24 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
 }
+
+.skills {
+  position: absolute;
+  top: 310vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex: 1 0 21%;
+  margin: 5px;
+  font-size: 1.6rem;
+}
