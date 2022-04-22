@@ -169,10 +169,14 @@ body {
   margin: auto;
   color: black;
   font-size: 2rem;
+  position: absolute;
+  margin-left: 100px;
+  text-align: center; 
 }
 
 .title {
   font-size: 4rem;
+  
 }
 
 .top {
@@ -182,7 +186,6 @@ body {
   justify-content: center;
   margin-left: 50%;
   transform: translateX(-50%);
-  /* align-items: center; */
 }
 
 .top-container {
