@@ -161,7 +161,6 @@ body {
   margin: 10px 0 0 0;
   border-radius: 50%;
   max-width: 30%;
-  float: left;
   transform: scaleX(-1);
   z-index: 0;
 }
@@ -178,14 +177,24 @@ body {
 
 .top {
   min-height: 100vh;
-  display: inline;
+  display: inline-block;
   align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /* align-items: center; */
+}
+
+.top-container {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .head-text {
   text-align: center;
-  position: relative;
-  top: 40vh;
 }
 
 .projects {
@@ -207,7 +216,6 @@ body {
   display: flex;
   margin-bottom: 20px;
   text-align: center;
-
 }
 
 .project-text-box {
