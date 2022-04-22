@@ -154,6 +154,7 @@ nav {
 body {
   min-height: 500vh;
   display: inline-block;
+  /* margin: 0 auto; */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -176,7 +177,6 @@ body {
 
 .title {
   font-size: 4rem;
-  
 }
 
 .top {
@@ -285,5 +285,63 @@ body {
   transform: translateX(-50%);
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .logo {
+    right: 10px;
+    top: -4px;
+    font-size: 1rem;
+  }
+  .top-container {
+    display: block;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
 
+  .word {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .projects {
+    top: 50vh;
+  }
+
+  .project {
+    width: 85vw;
+  }
+
+  .project-card {
+    display: block;
+  }
+
+  .project-text-box {
+    width: 85vw;
+  }
+
+  .skills {
+    top: 415vh;
+  }
+
+  .contact {
+    top: 480vh;
+  }
+  
+  .resume {
+    top: 515vh;
+  }
+
+  .contact-card {
+    display: flex;
+  }
+
+  .contact-img {
+    width: 150px;
+  }
+}
 
